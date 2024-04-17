@@ -42,6 +42,15 @@ container.on('mouseleave', e => {
     card.css('transform', "all 0.5s ease");
     card.css('transform', `rotateY(0deg) rotateX(0deg)`);
 });
-
-
-
+//this is my own explanation for this activity
+// this are the steps to modify the animation of a js
+// 1- create an object from your class or id
+// 2- add mouse move event on it
+// 3- write down the code that will change the style attribute of the elements inside the object
+//     when the user moves over the object
+// 4- add mouse enter event for adding animation effect to the elements inside the object
+//      when the user enters the object
+// 5- add mouse leave event for removing animation effect from the elements inside the object
+//       when the user leaves the object</s>
+// to be specific , we're using jQuery here because:
+// much more reliable to create and be more  sure about what is happening with DOM manipulation
